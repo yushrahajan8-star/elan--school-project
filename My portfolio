@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yushra | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f0f9ff;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 5px solid white;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    h1 { font-size: 32px; }
+    .tagline { font-size: 18px; opacity: 0.9; }
+
+    nav {
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      display: block;
+      padding: 15px 20px;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #e0e7ff;
+      border-radius: 6px;
+    }
+
+    section {
+      max-width: 750px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #4f46e5;
+      font-size: 24px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 8px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+      margin-bottom: 20px;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-tag {
+      background: #e0e7ff;
+      color: #4338ca;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+
+    .hobbies-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .hobby-item {
+      background: #fef3c7;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 17px;
+    }
+
+    a.btn {
+      display: inline-block;
+      background: #3b82f6;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    a.btn:hover {
+      background: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #e0e7ff;
+      color: #374151;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <img src="yush.jpg" alt="Yushra Hajan" class="profile-img">
+  <h1>Yushra Hajan</h1>
+  <p class="tagline">BS Information Technology Student | Creative & Passionate</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#info">Info</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#hobbies">Hobbies</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- About Section -->
+<section id="about" class="card">
+  <h2>👋 About Me</h2>
+  <p>Hello! I'm an Information Technology student passionate about web design and programming. I love learning new things every day and turning ideas into beautiful creations. I'm an introvert who finds joy in simple things and loves growing little by little each day. 💙</p>
+</section>
+
+<!-- Personal Info -->
+<section id="info" class="card">
+  <h2>📋 Personal Information</h2>
+  <p><strong>Full Name:</strong> Yushra Habi Hajan</p>
+  <p><strong>Date of Birth:</strong> December 15 2007</p>
+  <p><strong>Location:</strong> Martirez st.Jolo,Sulu""</p>
+  <p><strong>Course:</strong> Bachelor of Science in Information Technology — Section J</p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="card">
+  <h2>🛠️ My Skills</h2>
+  <div class="skills-list">
+    <span class="skill-tag">HTML & CSS</span>
+    <span class="skill-tag">JavaScript Basics</span>
+    <span class="skill-tag">C++ Programming</span>  </div>
+</section>
+
+<!-- Hobbies -->
+<section id="hobbies" class="card">
+  <h2>💛 What I Love</h2>
+  <div class="hobbies-grid">
+  <div class="hobby-item"> Reading Books</div>
+    <div class="hobby-item">Traveling</div>
+    <div class="hobby-item">Make up</div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="card" style="text-align:center;">
+  <h2>📬 Let's Connect</h2>
+  <p style="margin-bottom:15px;">yushrahajan8@gmail.com</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  © 2026 Yushra Hajan | BSIT — Section J<br>
+  Made with 💙
+</footer>
+
+</body>
+</html>
